@@ -95,14 +95,17 @@ public class Main {
         s1.returnBike(2);
         System.out.println("Alle Bikes in dieser Station: "+ s1.getBikes().toString());
 
-/* --> just for testing
-        u2.rentABike(1);
-        s1.returnBike(1);
-        u2.rentABike(5);
-        s3.returnBike(5);
-        u3.rentABike(7);
-        s2.returnBike(7);
-
+/* test of functionality, add more than 5 bikes to s1 -->
+        u3.rentABike(5);
+        s1.returnBike(5);
+        u3.rentABike(2);
+        s1.returnBike(2);
+        u1.rentABike(4);
+        s1.returnBike(4);
+        u2.rentABike(7);
+        s1.returnBike(7);
+        u2.rentABike(6);
+        s1.returnBike(6);
         System.out.println(b8.getcheckStatus()); = InService
         System.out.println(b9.getcheckStatus()); = Discarded
         System.out.println(b10.getcheckStatus()); = CanNotBeRented

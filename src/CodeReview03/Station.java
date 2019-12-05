@@ -42,7 +42,7 @@ public class Station {
             addBike(bID);
             Main.checkWhichUser(bID);
         } else {
-            System.out.println("Nix geht mehr! Diese Station ist schon voll :-O");
+            System.out.println("\nNix geht mehr! Die Station " + getLocation() + " ist schon voll!\n");
         }
     }
 }
